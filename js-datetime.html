@@ -1,0 +1,19 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <p id="output"></p>
+        <p id="output2"></p>
+
+        <script>
+
+            var dt = new Date(2021, 07, 13);
+            document.getElementById("output").innerHTML = dt.getFullYear();
+
+            dt.setHours(11);
+            dt.setMinutes(25)
+            document.getElementById("output2").innerHTML = dt;
+        </script>
+    </body>
+</html>
